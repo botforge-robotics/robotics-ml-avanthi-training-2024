@@ -19,7 +19,7 @@
   - [Batch09 - _Human-Machine Interaction: Custom Hotword Detection, Speech Recognition, and ML Chatbot Training._](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch09)
   - [Batch10 - _Elderly Medication Reminder with Facial Recognition - 1: (Implementing Facial Recognition- Addition, Deletion & Recognition and Timely Medication Alerts)._](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch10)
   - [Batch11 - _Integrated Interface for Elderly Medication Management with Facial Recognition - 2: Integrating Face Addition/Deletion, Medication Schedule Management, Sensor Data Display, and Interactive Voice Text Display._](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch11)
-  - [Batch12 - _Enhanced Human-Machine Interaction using Openai ChatGPT_](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch12)
+  - [Batch12 - _Enhanced Human-Machine Interaction using Openai ChatGPT._](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch12)
   - [Batch13 - _Social Interactive Robot 3D Modelling & Simulation._](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch13)
 
 ---
@@ -27,5 +27,5 @@
 ## 3. Smart Checkout M/C
 
 - #### Batches
-  - [Batch07 - _Building an Intelligent Checkout System: Construction and Item Classification using Deep Learning (CNN)_](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch07)
-  - [Batch05 - _Interface Design for an Intelligent Checkout System - Item Recognition, Price Display, Quantity Tracking, and Secure Payment Options_](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch05)
+  - [Batch07 - _Building an Intelligent Checkout System: Construction and Item Classification using Deep Learning (CNN)._](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch07)
+  - [Batch05 - _Interface Design for an Intelligent Checkout System - Item Recognition, Price Display, Quantity Tracking, and UPI Payment._](https://github.com/botforge-robotics/robotics-ml-avanthi-training-2024/batch05)
