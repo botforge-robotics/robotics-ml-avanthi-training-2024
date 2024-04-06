@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<launch>
+
+    <node pkg="joy" type="joy_node" name="joy_node" output="screen" required="true"/>
+
+    <node pkg="teleop_twist_joy" type="teleop_node" name="teleop_node" output="screen" required="true">
+   	<param name="scale_angular" type="double" value="1.2"/>
+        <param name="scale_linear" type="double" value="1.2"/>
+    </node>
+
+</launch>

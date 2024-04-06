@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find hotword_detector_and_speech_recognition)/config/hotword_detector.yaml"/>
+    <node pkg="hotword_detector_and_speech_recognition" name="hotword_detector_and_speech_recognition" type="detector.py" />
+</launch>

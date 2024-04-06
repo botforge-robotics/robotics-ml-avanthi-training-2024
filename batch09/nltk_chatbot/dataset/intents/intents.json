@@ -1,0 +1,168 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey there",
+        "how are you",
+        "Hello",
+        "Hi",
+        "What's up",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hi there value How's it going",
+        "Hello value How are you today",
+        "Hey value What's new",
+        "Good to see you value How have you been"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Good bye", "See you later", "Take care", "Bye for now"],
+      "responses": [
+        "Goodbye value It was nice talking to you.",
+        "See you later value Have a great day.",
+        "Take care value I hope to talk to you again soon.",
+        "Bye for now value It was a pleasure chatting with you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "guess_me",
+      "patterns": [
+        "do you remember me",
+        "who am i",
+        "guess my name",
+        "do you know me"
+      ],
+      "responses": [
+        "i guess you are value",
+        "i remember you value",
+        "i know you are value",
+        "how cam i forgot you value"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Do you have any jokes"],
+      "responses": [
+        "I'm reading a book about anti-gravity. It's impossible to put down!",
+        "Why don't eggs tell jokes? They'd crack each other up!.",
+        "I'm telling chemistry jokes, but I don't get any reaction.",
+        "What do you call a can opener that doesn't work? A can't opener!",
+        "What do you call a funny mountain? Hillarious!",
+        "Why did the snail go to the party? He wanted to shell-ebrate!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "story",
+      "patterns": ["tell me a story"],
+      "responses": [
+        "Once upon a time, in a quiet village nestled in the hills, there lived a young girl named Lily. Lily had a curious mind and a heart full of kindness. One day, while exploring the forest near her home, Lily stumbled upon a wounded bird with a broken wing. Without hesitation, Lily carefully scooped up the bird and cradled it in her hands. She brought the bird back to her cottage and gently tended to its injury, wrapping the wing with a soft cloth. Day by day, the bird grew stronger under Lily's care, until one sunny morning, it fluttered its wings and soared into the sky, leaving behind a trail of gratitude in its wake. And from that day on, Lily's act of kindness inspired others in the village to lend a helping hand to those in need.",
+        "Once upon a time, there was a little mouse named Milo who lived in a cozy burrow beneath a big oak tree. Milo loved to explore the forest and make new friends. One sunny day, while scurrying through the tall grass, Milo met a friendly rabbit named Rosie. Rosie had fluffy white fur and long floppy ears. Milo and Rosie became fast friends, hopping and playing together all day long. They chased butterflies, nibbled on berries, and laughed until their tummies hurt. From that day on, Milo and Rosie were inseparable, sharing adventures and making memories in the forest forever."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "states",
+      "patterns": ["what are the states in india", "tell me states in india"],
+      "responses": [
+        "From the tranquil backwaters of Kerala to the majestic peaks of Himachal Pradesh, India's diverse tapestry encompasses Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Jharkhand, Karnataka, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, and West Bengal, each adding its unique hue to the nation's vibrant mosaic"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "forward",
+      "patterns": ["move forward", "go straight", "move front", "walk forward"],
+      "responses": ["ok. moving forward!"],
+      "context_set": ""
+    },
+    {
+      "tag": "backward",
+      "patterns": ["move backward", "go back", "move back", "walk back"],
+      "responses": ["ok. moving backward!"],
+      "context_set": ""
+    },
+    {
+      "tag": "turn_left",
+      "patterns": ["turn left", "can you turn left"],
+      "responses": ["ok. turning left!"],
+      "context_set": ""
+    },
+    {
+      "tag": "turn_right",
+      "patterns": ["turn right", "can you turn right"],
+      "responses": ["ok. turning right!"],
+      "context_set": ""
+    },
+    {
+      "tag": "turn_around",
+      "patterns": ["turn around", "can you turn around"],
+      "responses": ["ok. turning around!"],
+      "context_set": ""
+    },
+    {
+      "tag": "temperature",
+      "patterns": [
+        "what is the current temperature",
+        "temperature please",
+        "could you tell me the temperature right now",
+        "i would like to know the temperature"
+      ],
+      "responses": [
+        "the current temperature is value degree celsius",
+        "value degree celsius"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "humidity",
+      "patterns": [
+        "what is the current humidity",
+        "humidity please",
+        "could you tell me the humidity right now",
+        "i would like to know the humidity"
+      ],
+      "responses": ["the current humidity is value percent", "value percent"],
+      "context_set": ""
+    },
+    {
+      "tag": "college",
+      "patterns": ["Tell me something about M V G R college of engineering"],
+      "responses": [
+        "MVGR college of engineering was Established in 1997, it is a highly regarded technological institute in Vizianagaram Andhra Pradesh. Now an autonomous institution, it boasts over 4,000 students and 250+ faculty, with 130 holding PhDs. MVGRCE offers B Tech, M Tech, and MBA programs, with specializations in various engineering fields. Known for its strong placements, accomplished faculty, and industry collaborations, it earned an 'A' grade from NAAC and ranks among India's top private engineering institutes"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hug",
+      "patterns": [
+        "can you hug me",
+        "hug please",
+        "I just wanted to say that you look absolutely stunning today"
+      ],
+      "responses": [
+        "Aw, thank you! That's so sweet of you to say.come on hug me.",
+        "Wow, I don't even know what to say. You're making me blush!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "object_detection",
+      "patterns": [
+        "can you see this object",
+        "what is this object",
+        "what is this item",
+        "what do you see"
+      ],
+      "responses": ["yes, i can see ", " "],
+      "context_set": ""
+    }
+  ]
+}

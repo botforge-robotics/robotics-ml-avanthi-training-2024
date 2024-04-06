@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="camera_compressed_image_topic" value="/usb_cam/image_raw"/>
+    <node name="face_trainer" pkg="face_recognition" type="face_recog.py"  output="log" >
+         <param name="camera_compressed_image_topic" value="$(arg camera_compressed_image_topic)" />
+    </node>
+</launch>

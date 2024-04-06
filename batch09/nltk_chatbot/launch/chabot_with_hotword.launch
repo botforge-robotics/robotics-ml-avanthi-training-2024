@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="nltk_chatbot" name="chatbot_Interpretor_node" type="chatbot_Interpretor.py" />
+    <node pkg="nltk_chatbot" name="chatbot_voice_service_client_hotword_node" type="chatbot_voice_service_client_hotword.py" />
+</launch>

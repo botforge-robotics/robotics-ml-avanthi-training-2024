@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="chatgpt" default="false"/>
+<!-- serial node -->
+  <node pkg="rosserial_arduino" type="serial_node.py" name="esp_serial_node">
+    <param name="port" value="/dev/ttyUSB0"/>
+    <param name="baud" value="115200"/>
+  </node>
+  <!-- hotword detection and speech recognition -->
+  <include file="$(find hotword_detector_and_speech_recognition)/launch/hotword_detector_speech_recognition.launch" />
+  <!-- nltk chatbot -->
+  <group unless="$(arg chatgpt)">
+        <include file="$(find nltk_chatbot)/launch/chabot_with_hotword.launch" />
+  </group>
+  
+  <!-- chatgpt -->
+   <group if="$(arg chatgpt)">
+        <include file="$(find openai_chat)/launch/chabot_with_hotword.launch" />
+    </group>
+  <!-- raspi camera node -->
+  <include file="$(find raspicam_node)/launch/camerav2_410x308_30fps.launch"/>
+  <!-- face expression -->
+  <node pkg="joyrobot" type="emotions.py" name="face_expressions_node"/>
+  <!-- text to speech -->
+  <node pkg="joyrobot" type="say.py" name="text_to_speech_node"/>
+  <!-- Gestures -->
+  <node pkg="joyrobot" type="gestures.py" name="gesture_node"/>
+  <!-- motion -->
+  <node pkg="joyrobot" type="motion.py" name="motion_node"/>
+  <!-- Object Detection -->
+  <node pkg="joyrobot" type="objectDetection.py" name="object_detection_node"/>
+  
+  <!-- Face recogniton -->
+  <include file="$(find face_recognition)/launch/face_recognition.launch" />
+  <!-- ros web bridge -->
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"></include>
+  <!-- image web stream -->
+    <node name="web_video_server_node" pkg="web_video_server" type="web_video_server" output="screen">
+        <param name="port" value="9000" />
+        <param name="default_transport" value="compressed"/>
+    </node>
+  
+</launch>

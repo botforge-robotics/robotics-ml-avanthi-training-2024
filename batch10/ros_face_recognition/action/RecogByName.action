@@ -1,0 +1,8 @@
+string name
+int64 duration #in seconds
+---
+bool found
+bool status
+---
+int64 elapsed_duration
+bool found

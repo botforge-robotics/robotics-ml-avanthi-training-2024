@@ -1,0 +1,4 @@
+string name
+uint16 samples
+---
+bool success

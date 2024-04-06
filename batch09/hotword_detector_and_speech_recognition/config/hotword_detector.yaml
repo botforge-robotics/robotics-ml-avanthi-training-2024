@@ -1,0 +1,4 @@
+hotword_detector_node:
+    sensitivity: 0.6
+    audio_gain: 1.0
+    model_name: "snowboy"

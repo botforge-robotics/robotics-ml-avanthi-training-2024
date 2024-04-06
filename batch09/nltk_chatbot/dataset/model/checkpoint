@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ubuntu/catkin_ws/src/nltk_chatbot/dataset/model/model.tflearn"
+all_model_checkpoint_paths: "/home/ubuntu/catkin_ws/src/nltk_chatbot/dataset/model/model.tflearn"

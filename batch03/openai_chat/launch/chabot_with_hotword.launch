@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="openai_chat" name="chatgpt_Interpretor_node" type="chatbot_Interpretor.py" />
+    <node pkg="openai_chat" name="chatgpt_voice_service_client_hotword_node" type="chatbot_voice_service_client_hotword.py" />
+</launch>

@@ -1,3 +1,3 @@
 # Batch03
 
-## Developing an AMR Docking System for Seamless Charging.
+## AI-Guided Assistant for Visually Impaired: Scene Briefing
